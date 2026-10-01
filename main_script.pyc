@@ -893,6 +893,7 @@ def tele_proses_aktivasi(chat_id, teks_pesan):
 
 
 def listener_perintah_telegram():
+  global TELEGRAM_TOKEN, DEFAULT_CHAT_ID, KODE_FULL_RAHASIA
   global is_paused, is_stopped, stop_flags, app_is_running
   last_update_id = 0
   while True:
