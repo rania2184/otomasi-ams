@@ -90,7 +90,7 @@ btn_jalankan_aktif = None
 # ==========================================
 # 📱 TOKEN TELEGRAM & KODE RAHASIA (DIAMANKAN)
 # ==========================================
-KODE_FULL_RAHASIA = globals().get("KODE_FULL_RAHASIA", "KIB-FULL-2026")
+KODE_FULL_RAHASIA = globals().get("KODE_FULL_RAHASIA", "")
 TELEGRAM_TOKEN = globals().get("TELEGRAM_TOKEN", "")
 DEFAULT_CHAT_ID = globals().get("DEFAULT_CHAT_ID", "")
 
